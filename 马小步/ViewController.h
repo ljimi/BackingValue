@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *testS;
+@property (weak, nonatomic) IBOutlet UIButton *testU;
+@property (weak, nonatomic) IBOutlet UIButton *testG;
+@property (weak, nonatomic) IBOutlet UIButton *testSQL;
 
 
 @end

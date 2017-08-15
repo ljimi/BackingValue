@@ -13,6 +13,27 @@
 		2A8215481DE1CCB5001809B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215461DE1CCB5001809B0 /* Main.storyboard */; };
 		2A82154A1DE1CCB5001809B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215491DE1CCB5001809B0 /* Assets.xcassets */; };
 		2A82154D1DE1CCB5001809B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A82154B1DE1CCB5001809B0 /* LaunchScreen.storyboard */; };
+		2A8215551DE1CCD4001809B0 /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215541DE1CCD4001809B0 /* File.strings */; };
+		2A8215581DE1E547001809B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8215571DE1E547001809B0 /* Security.framework */; };
+		2A82155A1DE1E555001809B0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8215591DE1E555001809B0 /* CoreTelephony.framework */; };
+		2A82155C1DE1E55F001809B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A82155B1DE1E55F001809B0 /* SystemConfiguration.framework */; };
+		2A8215831DE218F7001809B0 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215811DE218F7001809B0 /* BlockViewController.m */; };
+		2A8215841DE218F7001809B0 /* BlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215821DE218F7001809B0 /* BlockViewController.xib */; };
+		2A8215891DE21923001809B0 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215871DE21923001809B0 /* DelegateViewController.m */; };
+		2A82158A1DE21923001809B0 /* DelegateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215881DE21923001809B0 /* DelegateViewController.xib */; };
+		2A82158F1DE21943001809B0 /* NotificaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A82158D1DE21943001809B0 /* NotificaViewController.m */; };
+		2A8215901DE21943001809B0 /* NotificaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A82158E1DE21943001809B0 /* NotificaViewController.xib */; };
+		2A8215971DE219E3001809B0 /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215951DE219E3001809B0 /* StackViewController.m */; };
+		2A8215981DE219E3001809B0 /* StackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215961DE219E3001809B0 /* StackViewController.xib */; };
+		2A82159C1DE2224E001809B0 /* SingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A82159A1DE2224E001809B0 /* SingleViewController.m */; };
+		2A82159D1DE2224E001809B0 /* SingleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A82159B1DE2224E001809B0 /* SingleViewController.xib */; };
+		2A8215A01DE2240E001809B0 /* singleOB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A82159F1DE2240E001809B0 /* singleOB.m */; };
+		2A8215A31DE22794001809B0 /* single.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215A21DE22794001809B0 /* single.m */; };
+		2A8215AC1DE22DA0001809B0 /* UserDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215AA1DE22DA0001809B0 /* UserDefaultViewController.m */; };
+		2A8215AD1DE22DA0001809B0 /* UserDefaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215AB1DE22DA0001809B0 /* UserDefaultViewController.xib */; };
+		2A8215B21DE2334B001809B0 /* SQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215B01DE2334B001809B0 /* SQLiteViewController.m */; };
+		2A8215B31DE2334B001809B0 /* SQLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A8215B11DE2334B001809B0 /* SQLiteViewController.xib */; };
+		2A8215CB1DE235EB001809B0 /* SQLiteOB.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A8215CA1DE235EB001809B0 /* SQLiteOB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +47,37 @@
 		2A8215491DE1CCB5001809B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A82154C1DE1CCB5001809B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A82154E1DE1CCB5001809B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8215541DE1CCD4001809B0 /* File.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = File.strings; sourceTree = "<group>"; };
+		2A8215571DE1E547001809B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2A8215591DE1E555001809B0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2A82155B1DE1E55F001809B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2A8215801DE218F7001809B0 /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		2A8215811DE218F7001809B0 /* BlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		2A8215821DE218F7001809B0 /* BlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockViewController.xib; sourceTree = "<group>"; };
+		2A8215861DE21923001809B0 /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		2A8215871DE21923001809B0 /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
+		2A8215881DE21923001809B0 /* DelegateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelegateViewController.xib; sourceTree = "<group>"; };
+		2A82158C1DE21943001809B0 /* NotificaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificaViewController.h; sourceTree = "<group>"; };
+		2A82158D1DE21943001809B0 /* NotificaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificaViewController.m; sourceTree = "<group>"; };
+		2A82158E1DE21943001809B0 /* NotificaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificaViewController.xib; sourceTree = "<group>"; };
+		2A8215941DE219E3001809B0 /* StackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewController.h; sourceTree = "<group>"; };
+		2A8215951DE219E3001809B0 /* StackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewController.m; sourceTree = "<group>"; };
+		2A8215961DE219E3001809B0 /* StackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StackViewController.xib; sourceTree = "<group>"; };
+		2A8215991DE2224E001809B0 /* SingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleViewController.h; sourceTree = "<group>"; };
+		2A82159A1DE2224E001809B0 /* SingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleViewController.m; sourceTree = "<group>"; };
+		2A82159B1DE2224E001809B0 /* SingleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleViewController.xib; sourceTree = "<group>"; };
+		2A82159E1DE2240E001809B0 /* singleOB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = singleOB.h; sourceTree = "<group>"; };
+		2A82159F1DE2240E001809B0 /* singleOB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = singleOB.m; sourceTree = "<group>"; };
+		2A8215A11DE22794001809B0 /* single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = single.h; sourceTree = "<group>"; };
+		2A8215A21DE22794001809B0 /* single.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = single.m; sourceTree = "<group>"; };
+		2A8215A91DE22DA0001809B0 /* UserDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultViewController.h; sourceTree = "<group>"; };
+		2A8215AA1DE22DA0001809B0 /* UserDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultViewController.m; sourceTree = "<group>"; };
+		2A8215AB1DE22DA0001809B0 /* UserDefaultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDefaultViewController.xib; sourceTree = "<group>"; };
+		2A8215AF1DE2334B001809B0 /* SQLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteViewController.h; sourceTree = "<group>"; };
+		2A8215B01DE2334B001809B0 /* SQLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteViewController.m; sourceTree = "<group>"; };
+		2A8215B11DE2334B001809B0 /* SQLiteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQLiteViewController.xib; sourceTree = "<group>"; };
+		2A8215C91DE235EB001809B0 /* SQLiteOB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteOB.h; sourceTree = "<group>"; };
+		2A8215CA1DE235EB001809B0 /* SQLiteOB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteOB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +85,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A82155C1DE1E55F001809B0 /* SystemConfiguration.framework in Frameworks */,
+				2A82155A1DE1E555001809B0 /* CoreTelephony.framework in Frameworks */,
+				2A8215581DE1E547001809B0 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +99,7 @@
 			children = (
 				2A82153C1DE1CCB5001809B0 /* 马小步 */,
 				2A82153B1DE1CCB5001809B0 /* Products */,
+				2A8215561DE1E547001809B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +119,8 @@
 				2A8215431DE1CCB5001809B0 /* ViewController.h */,
 				2A8215441DE1CCB5001809B0 /* ViewController.m */,
 				2A8215461DE1CCB5001809B0 /* Main.storyboard */,
+				2A82156F1DE20F35001809B0 /* Controllers */,
+				2A8215541DE1CCD4001809B0 /* File.strings */,
 				2A8215491DE1CCB5001809B0 /* Assets.xcassets */,
 				2A82154B1DE1CCB5001809B0 /* LaunchScreen.storyboard */,
 				2A82154E1DE1CCB5001809B0 /* Info.plist */,
@@ -77,6 +135,106 @@
 				2A82153E1DE1CCB5001809B0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A8215561DE1E547001809B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A82155B1DE1E55F001809B0 /* SystemConfiguration.framework */,
+				2A8215591DE1E555001809B0 /* CoreTelephony.framework */,
+				2A8215571DE1E547001809B0 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A82156F1DE20F35001809B0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215AE1DE2331D001809B0 /* SQLite */,
+				2A8215931DE219CD001809B0 /* UserDefault */,
+				2A8215921DE219C1001809B0 /* Stack */,
+				2A8215911DE21966001809B0 /* Single */,
+				2A82157F1DE218F7001809B0 /* Block */,
+				2A8215851DE21923001809B0 /* Delegate */,
+				2A82158B1DE21943001809B0 /* Notifica */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A82157F1DE218F7001809B0 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215801DE218F7001809B0 /* BlockViewController.h */,
+				2A8215811DE218F7001809B0 /* BlockViewController.m */,
+				2A8215821DE218F7001809B0 /* BlockViewController.xib */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		2A8215851DE21923001809B0 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215861DE21923001809B0 /* DelegateViewController.h */,
+				2A8215871DE21923001809B0 /* DelegateViewController.m */,
+				2A8215881DE21923001809B0 /* DelegateViewController.xib */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2A82158B1DE21943001809B0 /* Notifica */ = {
+			isa = PBXGroup;
+			children = (
+				2A82158C1DE21943001809B0 /* NotificaViewController.h */,
+				2A82158D1DE21943001809B0 /* NotificaViewController.m */,
+				2A82158E1DE21943001809B0 /* NotificaViewController.xib */,
+			);
+			path = Notifica;
+			sourceTree = "<group>";
+		};
+		2A8215911DE21966001809B0 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215991DE2224E001809B0 /* SingleViewController.h */,
+				2A82159A1DE2224E001809B0 /* SingleViewController.m */,
+				2A82159B1DE2224E001809B0 /* SingleViewController.xib */,
+				2A82159E1DE2240E001809B0 /* singleOB.h */,
+				2A82159F1DE2240E001809B0 /* singleOB.m */,
+				2A8215A11DE22794001809B0 /* single.h */,
+				2A8215A21DE22794001809B0 /* single.m */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		2A8215921DE219C1001809B0 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215941DE219E3001809B0 /* StackViewController.h */,
+				2A8215951DE219E3001809B0 /* StackViewController.m */,
+				2A8215961DE219E3001809B0 /* StackViewController.xib */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		2A8215931DE219CD001809B0 /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215A91DE22DA0001809B0 /* UserDefaultViewController.h */,
+				2A8215AA1DE22DA0001809B0 /* UserDefaultViewController.m */,
+				2A8215AB1DE22DA0001809B0 /* UserDefaultViewController.xib */,
+			);
+			path = UserDefault;
+			sourceTree = "<group>";
+		};
+		2A8215AE1DE2331D001809B0 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				2A8215AF1DE2334B001809B0 /* SQLiteViewController.h */,
+				2A8215B01DE2334B001809B0 /* SQLiteViewController.m */,
+				2A8215B11DE2334B001809B0 /* SQLiteViewController.xib */,
+				2A8215C91DE235EB001809B0 /* SQLiteOB.h */,
+				2A8215CA1DE235EB001809B0 /* SQLiteOB.m */,
+			);
+			path = SQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +296,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8215B31DE2334B001809B0 /* SQLiteViewController.xib in Resources */,
+				2A8215551DE1CCD4001809B0 /* File.strings in Resources */,
 				2A82154D1DE1CCB5001809B0 /* LaunchScreen.storyboard in Resources */,
+				2A8215841DE218F7001809B0 /* BlockViewController.xib in Resources */,
 				2A82154A1DE1CCB5001809B0 /* Assets.xcassets in Resources */,
+				2A82158A1DE21923001809B0 /* DelegateViewController.xib in Resources */,
+				2A8215981DE219E3001809B0 /* StackViewController.xib in Resources */,
 				2A8215481DE1CCB5001809B0 /* Main.storyboard in Resources */,
+				2A8215901DE21943001809B0 /* NotificaViewController.xib in Resources */,
+				2A82159D1DE2224E001809B0 /* SingleViewController.xib in Resources */,
+				2A8215AD1DE22DA0001809B0 /* UserDefaultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +318,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A8215451DE1CCB5001809B0 /* ViewController.m in Sources */,
+				2A8215A31DE22794001809B0 /* single.m in Sources */,
+				2A8215B21DE2334B001809B0 /* SQLiteViewController.m in Sources */,
+				2A8215891DE21923001809B0 /* DelegateViewController.m in Sources */,
+				2A8215AC1DE22DA0001809B0 /* UserDefaultViewController.m in Sources */,
+				2A82159C1DE2224E001809B0 /* SingleViewController.m in Sources */,
+				2A8215CB1DE235EB001809B0 /* SQLiteOB.m in Sources */,
+				2A8215971DE219E3001809B0 /* StackViewController.m in Sources */,
+				2A82158F1DE21943001809B0 /* NotificaViewController.m in Sources */,
+				2A8215831DE218F7001809B0 /* BlockViewController.m in Sources */,
+				2A8215A01DE2240E001809B0 /* singleOB.m in Sources */,
 				2A8215421DE1CCB5001809B0 /* AppDelegate.m in Sources */,
 				2A82153F1DE1CCB5001809B0 /* main.m in Sources */,
 			);
